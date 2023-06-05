@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: bisque;
+    }
+</style>
+<body>
+    <h1>ENCUESTA CAMPUS VIRTUAL</h1>
+    <form action="" method="get" style="line-height: 0.1%">
+        <table>        
+            <tr>
+                <td><p for="nombre">NOMBRE: </p></td>
+                <td> <input type="text" id="nombre" name="Nombre"></td>
+            </tr>
+            <tr>
+                <td><p>DEPARTAMENTO:</td>
+                <td><select name="list" id="combobox">
+                    <option value="Informatica">Informatica</option>
+                    <option value="Derecho">Derecho</option>
+                    <option value="Arquitectura">Arquitectura</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><p>SEDE:</p></td>
+                <td><select name="list" id="combobox">
+                    <option value="Santiago Del Estero">Santiago Del Estero</option>
+                    <option value="San Salvador De Jujuy">San Salvador De Jujuy</option>
+                    <option value="Rafaela">Rafaela</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><p>E-MAIL:</p></td>
+                <td><input type="text" id="correo" name="Correo"></td>
+            </tr>
+            <tr>
+                <td><p>TELEFONO: </p></td>
+                <td><input type="text" id="num" name="num"></td>
+            </tr>
+            <tr>
+                <td><em><p>¿Utiliza habitualmente el campus virtual?</p></em></td>
+                <td><input type="radio" name="si1" value="si1"> si
+                    <input type="radio" name="no1" value="no1"> no</td>
+            </tr>
+            <tr>
+                <td><em><b>¿Estaría interesado en recibir formación 
+                    personalizada sobre las posibilidades de 
+                    esta herramienta informatica?</b></em></td>
+                <td><input type="radio" name="si2" value="si2"> si 
+                    <input type="radio" name="no2" value="no2"> no</td>
+            </tr>
+        </table>
+    </form>
+    
+    <h2>CALENDARIO APROXIMADO DE FORMACIÓN</h2>
+    <form action="" method="get" style="line-height: 0.1%">
+        <table>
+            <tr>
+                <td><p>TURNO PREFERENTE: </p></td>
+                <td>Mañana <input type="checkbox" name="info" checked="checked"> Tarde <input type="checkbox" name="info" checked="checked"></td>
+            </tr>
+            <tr>
+                <td><p>MES PREFERENTE: </p></td>
+                <td>
+                    <select name="list" id="combobox">
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                    </select>    
+                </td>
+            </tr>
+            <tr>
+                <td><p>HORARIO REFERENTE: </p></td>
+                <td><select name="list" id="combobox">
+                    <option value="9">9:00</option>
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                </select></td>
+            </tr>
+        <tr>
+            <td>COMENTARIOS: </td>
+            <td><textarea name="descripcion" id="desc" cols="30" rows="5" ></textarea></td>
+        </tr>
+        <tr><td><input type="submit" id="botonenviar" value="Enviar">
+                <input type="submit" id="botonenviar" value="Borrar"></tr></td>
+            
+        </table>        
+    </form>                             
+
+</body>
+</html>
